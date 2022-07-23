@@ -107,7 +107,6 @@ fn main() {
     draw(&grid, width, height);
 }
 
-#[allow(dead_code)]
 fn draw(grid: &Vec<Tile>, width: usize, height: usize) {
     for y in 0..height {
         for x in 0..width {
